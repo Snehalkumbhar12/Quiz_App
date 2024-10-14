@@ -1,0 +1,43 @@
+
+
+
+.questions-scroll-container {
+  max-height: 400px; /* Limit height for scrolling */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  padding: 10px; /* Padding around the content */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+.questions-scroll-container::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar */
+}
+
+/* Hide scrollbar for Firefox */
+.questions-scroll-container {
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+/* Hide scrollbar for Internet Explorer and Edge */
+.questions-scroll-container {
+  -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+}
+
+
+.question-block {
+  margin-bottom: 15px; /* Space between questions */
+}
+
+.footer {
+  background-color: #0d6efd; /* Change this to your desired color */
+  color: white;
+  position: relative; /* Ensure it doesn't overlap with other content */
+  height: 60px; /* Adjust height as needed */
+}
+
+.questions-scroll-container {
+  background-color: #ffffff; /* Change to your desired color */
+  border-radius: 10px; /* Rounded corners */
+}

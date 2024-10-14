@@ -1,0 +1,41 @@
+/* LeaderboardPage.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures full viewport height */
+}
+
+.flex-grow-1 {
+    flex-grow: 1; /* Main content grows to fill the space between header and footer */
+}
+
+.footer {
+    background-color: #0b0f27; /* Footer background */
+    color: white; /* Text color */
+    padding: 20px 0;
+    width: 100%; /* Full width */
+    position: fixed; /* Fixed footer at the bottom */
+    bottom: 0;
+    left: 0;
+    height: min-content;
+    z-index: 1000; /* Ensures it's always on top */
+}
+
+.container-fluid {
+    padding: 0 !important; /* Remove any extra padding */
+}
+
+.mdb-container {
+    max-width: 100%; /* Ensure the container does not exceed the viewport width */
+}
+
+body {
+    overflow: hidden; /* Prevent scrolling in the body */
+}

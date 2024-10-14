@@ -1,0 +1,79 @@
+
+  .container-fluid {
+    padding: 0 !important; /* Remove any extra padding */
+  }
+  
+  .mdb-container {
+    max-width: 100%; /* Ensure the container does not exceed the viewport width */
+  }
+  
+  body {
+    overflow: hidden; /* Prevent scrolling in the body */
+  }
+  
+
+  .btn-floating {
+    width: 40px; /* Set a fixed width for consistency */
+    height: 40px; /* Set a fixed height for consistency */
+    border-radius: 50%; /* Make it circular */
+    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow effect */
+  }
+  
+  .btn-floating:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
+  }
+  
+  .btn-floating:focus, 
+  .btn-floating:active {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Maintain shadow effect on focus and active */
+  }
+  .custom-button {
+    width: 100px; /* Fixed width for consistency */
+    height: 40px; /* Fixed height for consistency */
+    border-radius: 10px; /* Rounded corners */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow effect */
+    background-color: inherit; /* Keep default MDBootstrap button color */
+    border: none; /* No border */
+    outline: none; /* Remove default focus outline */
+    box-sizing: border-box; /* Ensure size remains consistent */
+  }
+  
+  .custom-button:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
+  }
+  
+  .custom-button:focus, 
+  .custom-button:active {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Maintain shadow effect on focus and active */
+    outline: none; /* Ensure no focus outline */
+  }
+
+
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .flex-grow-1 {
+    flex-grow: 1;
+  }
+  
+  .footer {
+    background-color: #0d6efd;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    flex-shrink: 0;
+    z-index: 1000; /* Ensures it's always visible on top */
+  }
+  
